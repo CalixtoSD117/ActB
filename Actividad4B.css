@@ -1,11 +1,7 @@
 /* Importacion para una fuente de texto de Google */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Tilt+Warp&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 body{
     background-color: rgb(150, 150, 150);
