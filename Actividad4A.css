@@ -1,0 +1,106 @@
+/* Importacion para una fuente de texto de Google */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Tilt+Warp&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Estilos del Welcome*/
+
+.navbar {
+    width: 100%;
+}
+
+.navbar-contain {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    border-radius: 40px;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 30px;
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-link:hover {
+    color: #81abea;
+}
+
+.nav-item:hover {
+
+    background-color: rgb(243, 243, 243);
+    transition: all;
+    transition-duration: 1000ms;
+}
+
+
+
+/* reglas de estilos
+
+texto normal: font weight 400
+
+
+*/
+
+
+/*Estilos del formulario*/
+
+
+
+
+.title2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bg-card {
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 50px;
+    margin: 20px;
+}
+
+.cen {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.eye {
+    position: fixed;
+    display: flex;
+    margin: 0;
+    padding:0;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    right: 0;
+    color: #424242;
+    border-radius: 10px;
+    border: 0.5px solid rgb(240, 240, 240);
+    font-size: 18px;
+    padding: 4px;
+    transition: all;
+    transition-duration: 500ms;
+    cursor: pointer;
+
+}
+
+.eye:hover {
+    background: #424242;
+    color: #62aaf8;
+}
