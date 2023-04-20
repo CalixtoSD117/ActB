@@ -249,3 +249,7 @@ textarea:focus {
 }
 
 
+.bgnone{
+    background: none;
+    border: none;
+    }

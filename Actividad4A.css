@@ -256,3 +256,9 @@ textarea:focus {
     background: #424242;
     color: #62aaf8;
 }
+
+.bgnone{
+background: none;
+border: none;
+
+}
