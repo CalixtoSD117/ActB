@@ -206,12 +206,12 @@ textarea:focus {
     margin: 0;
     padding:0;
     align-items: center;
-    background-color: rgb(0, 0, 0);
+    background-color: white;
     justify-content: center;
     right: 0;
-    color: #ffffff;
+    color: #424242;
     border-radius: 10px;
-    border: 0.5px solid #29ecd2;
+    border: 0.5px solid rgb(240, 240, 240);
     font-size: 18px;
     padding: 4px;
     transition: all;
@@ -229,24 +229,7 @@ textarea:focus {
     color: #ffffff;
 }
 
-.eyes{
-    position: fixed;
-    display: flex;
-    margin: 0;
-    padding:0;
-    align-items: center;
-    background:none;
-    justify-content: center;
-    right: 0;
-    border-radius: 10px;
-    border: none;
-    font-size: 18px;
-    padding: 4px;
-    transition: all;
-    transition-duration: 500ms;
-    cursor: pointer;
 
-}
 
 
 .bgnone{
